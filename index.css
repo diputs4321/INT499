@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Exo 2";
+  src: url("./assets/fonts/Exo2-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Exo 2";
+  src: url("./assets/fonts/Exo2-Italic-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Exo 2", Arial, sans-serif;
+  background-color: #f1f5f9;
+  color: #111827;
+}
