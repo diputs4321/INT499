@@ -1,4 +1,4 @@
-import { NavLink } from "react-router";
+import { NavLink } from "react-router-dom";
 import logo from "../assets/images/EZTechMovieLogo.png";
 
 function Navbar() {
@@ -20,5 +20,6 @@ function Navbar() {
     </header>
   );
 }
+
 
 export default Navbar;
