@@ -3,23 +3,20 @@ import logo from "../assets/images/EZTechMovieLogo.png";
 
 function Navbar() {
   return (
-    <header className="navbar">
-      <div className="logo-area">
-        <img src={logo} alt="EZ Tech Movie logo" className="nav-logo" />
-        <h2 className="logo">StreamList</h2>
+    <nav className="navbar">
+      <div className="navbar-brand">
+        <img src={logo} alt="EZTechMovie logo" className="navbar-logo" />
+        <h2>StreamList</h2>
       </div>
 
-      <nav className="nav-links">
-        <NavLink to="/" end>
-          Home
-        </NavLink>
+      <div className="navbar-links">
+        <NavLink to="/">Home</NavLink>
         <NavLink to="/movies">Movies</NavLink>
         <NavLink to="/cart">Cart</NavLink>
         <NavLink to="/about">About</NavLink>
-      </nav>
-    </header>
+      </div>
+    </nav>
   );
 }
-
 
 export default Navbar;
